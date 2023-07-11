@@ -1,0 +1,151 @@
+
+.home .content{
+    max-width: 1000px;
+}
+.home .content h3{
+    font-size: 23px;
+    color: #030101;
+
+}
+
+.home .content p{
+    font-size: 18px;
+    color:#000000;
+    padding: 10px;
+    line-height: 20px;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+
+}
+
+.about .row .image-container{
+    flex: 1 40rem;
+    position: relative;
+}
+
+
+.about .row .img{
+    width: 1000%;
+    border: 1.5rem solid #fff;
+    border-radius: 11px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    object-fit: right;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: #333;
+
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row  .image{
+    flex: 1 1 40rem;
+
+}
+
+.contact.row .image img{
+    width: 100%;
+}
+.contact .row form .box{
+    pad: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius:.5rem;
+    margin:.7rem 0;
+    width: 100%;
+    }
+.contact .row form .box:focus{
+    border-color: var(--pink);
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.footer .box-container .box{
+    flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color: #666;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.footer .credit span{
+    color: var(--pink);
+}
+
+
+@media (max-width:768px){
+ 
+    html .fa-bars{
+        display: block;      
+}
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgb(0, 0, 0, .1);
+        display: block;
+        }
+    
+    .icons-container .icons span{
+        font-size: 11px;
+    }
+
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 50%
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    }
